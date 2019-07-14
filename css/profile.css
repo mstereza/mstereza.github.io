@@ -1,0 +1,70 @@
+/* profile.css */
+html {
+  background-color: #FFFFFF;
+}
+
+body {
+  background: none;
+  color: #69707a;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
+a {
+    color: #f9f7f9;
+    text-decoration: none;
+}
+
+strong {
+  color: #222324;
+}
+
+.navbar {
+  background-color: #deb4c98a;
+  color: white;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e07bcd;
+  border-color: #f7f7f9;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e07bcd;
+  border-color: #f7f7f9;
+}
+
+.card {
+  border-color: #ccc;
+}
+
+.card-title {
+  color: #e16879;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url("/pattern.png");
+  background-repeat: repeat-x;
+}
+
+/* Additional stuff for index.html page */
+.jumbotron {
+  background-image: url(https://i.pinimg.com/736x/5d/42/a6/5d42a6f3f42c1cc2f43cade18622ad88--glitter-wallpaper-iphone-glitters-wallpaper.jpg);
+  background-size: cover;
+  color: white;
+}
+.progress-bar {
+  background-color: #b702d8;
+  font-size: 12;
+}
